@@ -1,0 +1,245 @@
+body
+{
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#before_header 
+{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+}
+h1
+{
+    font-size: 2.7em;  
+}
+@media screen and (max-width: 1080px)
+{
+    h1
+    {
+        font-size: 2.5em;
+    }
+    .third_section .before_chiffre
+    {
+        flex-wrap: wrap;
+    }
+    .section_five
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section_five img
+    {
+        width: 400px;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    .section_eight
+    {
+        flex-wrap: wrap;
+    }
+}
+header
+{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.first_section
+{
+    background-color: crimson;
+    padding: 20px;
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+.first_section h1
+{
+    margin-top: -30px;
+    margin-left: 50px;
+    color: white; font-size: 3em;
+}
+.second_section
+{
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 80px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.third_section .chiffres .first
+{
+    color: crimson;
+    font-size: 3.5em;
+    font-weight: 900;
+    margin-top: -15px;
+}
+.third_section 
+{
+    justify-content: space-around;
+    text-align: center;
+}
+.third_section .second
+{
+    font-size: 1.3em;
+    margin-top: -25px;
+}
+.third_section h1
+{
+    margin-right: 25px;
+    padding: 5px;
+}
+.before_chiffre
+{
+    display: flex;
+    justify-content: space-around;
+}
+.fourth_section
+{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.fourth_section p
+{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+.section_five
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section_five a
+{
+    color: crimson;
+    font-weight: 630;
+}
+.section_five .inscrire
+{
+    width: 500px;
+    margin-left: 10px;
+}
+.section_five .inscrire h1
+{
+    margin-top: -10px;
+}
+.section_six
+{
+    text-align: center;
+    margin-top: -25px;
+}
+.section_six .p
+{
+    margin-top: -20px;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+.section_seven
+{
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.section_eight
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.section_eight .restez
+{
+    background-color: crimson;
+    color: white;
+    padding: 50px;
+    padding-top: 20px;
+}
+.section_eight .restez p
+{
+    font-size: 1.1em;
+    margin-bottom: 50px;
+}
+.section_eight .question
+{
+    color: black;
+    background-color: antiquewhite;
+    padding: 50px;
+    padding-top: 20px;
+    width: 500px;
+}
+.section_eight .restez button
+{
+    background-color: white;
+    color: crimson;
+    width: 120px;
+    height: 45px;
+    font-weight: 750;
+    font-size: 1em;
+    border-color: white;
+    border-radius: 3px;
+}
+.section_eight .question button
+{
+    background-color: crimson;
+    color: white;
+    width: 300px;
+    height: 45px;
+    font-weight: 750;
+    font-size: 1em;
+    border-radius: 3px;
+    border-color: crimson;
+}
+.section_eight input
+{
+    width: 350px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1em;
+    color: ghostwhite;
+}
+footer
+{
+    background-color: crimson;
+    margin-top: 30px;
+}
+footer .img
+{
+    text-align: center;
+    padding: 50px;
+}
+footer nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 10px;
+    border-right: 3px white solid;
+    padding-right: 5px;
+}
+nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    text-decoration: underline;
+}
+
+footer nav
+{
+    margin-left: 240px;
+}
